@@ -58,6 +58,9 @@ export default {
       ]
     }
   },
+  mounted() {
+    console.log("$$$t", this.$t,"!!!!", this.$d)
+  },
   methods: {
     changeLang() {
       const lang = this.$i18n.locale

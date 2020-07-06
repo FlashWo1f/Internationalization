@@ -18,7 +18,7 @@ const i18n = new VueI18n({
   numberFormats,
   dateTimeFormats
 })
-
+console.log("!", i18n)
 new Vue({
   i18n,
   render: h => h(App)

@@ -39,6 +39,8 @@ class App extends Component {
   changeLang() {
     const lang = intl.options.currentLocale
     intl.options.currentLocale = lang==='zh'?'en':'zh'
+    console.log("??", this)
+    // ?
     this.forceUpdate()
   }
 
